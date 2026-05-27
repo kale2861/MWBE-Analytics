@@ -69,13 +69,12 @@ Contains:
 
 # Project Structure
 
+```text
 mwbe-analytics/
-│
 ├── data/
 │   ├── raw/
 │   │   ├── nyc_mwbe_certified_businesses.csv
 │   │   └── nyc_recent_contract_awards_raw.csv
-│   │
 │   └── processed/
 │       ├── mwbe_vendor_intelligence.csv
 │       ├── mwbe_vendor_intelligence_enriched.csv
@@ -90,39 +89,37 @@ mwbe-analytics/
 ├── src/
 │   ├── load/
 │   │   └── load_to_duckdb.py
-│   │
-│   └── transform/
-│
-├── sql/
-│   ├── borough_vendor_distribution.sql
-│   ├── digital_readiness_analysis.sql
-│   ├── high_readiness_low_activity_vendors.sql
-│   ├── industry_readiness_segmentation.sql
-│   ├── procurement_agency_diversification.sql
-│   ├── procurement_participation_analysis.sql
-│   ├── renewal_urgency_analysis.sql
-│   ├── top_industries_by_procurement.sql
-│   ├── top_procurement_vendors.sql
-│   ├── top_vendor_capacity.sql
-│   └── vendor_readiness_summary.sql
+│   ├── transform/
+│   └── sql/
+│       ├── borough_vendor_distribution.sql
+│       ├── digital_readiness_analysis.sql
+│       ├── high_readiness_low_activity_vendors.sql
+│       ├── industry_readiness_segmentation.sql
+│       ├── procurement_agency_diversification.sql
+│       ├── procurement_participation_analysis.sql
+│       ├── renewal_urgency_analysis.sql
+│       ├── top_industries_by_procurement.sql
+│       ├── top_procurement_vendors.sql
+│       ├── top_vendor_capacity.sql
+│       └── vendor_readiness_summary.sql
 │
 ├── database/
 │   └── mwbe_vendor_intelligence.duckdb
 │
 ├── dashboard/
-│   └── app.py
-│
-├── assets/
-│   ├── borough_procurement_value.png
-│   ├── borough_vendor_distribution.png
-│   ├── missing_data_analysis.png
-│   ├── operational_readiness_distribution.png
-│   ├── procurement_participation.png
-│   ├── top_industries_by_procurement_value.png
-│   └── vendor_capacity_distribution.png
+│   ├── app.py
+│   └── assets/
+│       ├── borough_procurement_value.png
+│       ├── borough_vendor_distribution.png
+│       ├── missing_data_analysis.png
+│       ├── operational_readiness_distribution.png
+│       ├── procurement_participation.png
+│       ├── top_industries_by_procurement_value.png
+│       └── vendor_capacity_distribution.png
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
