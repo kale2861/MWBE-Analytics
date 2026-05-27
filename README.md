@@ -313,7 +313,80 @@ This project demonstrates:
 - Exploratory Data Analysis (EDA)
 
 ---
+## Installation & Setup
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/mwbe-analytics.git
+cd mwbe-analytics
+```
+
+---
+
+### 2. Create a Virtual Environment
+
+#### macOS / Linux
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Launch the Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The application will open locally at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Project Requirements
+
+- Python 3.10+
+- DuckDB
+- Streamlit
+- Pandas
+- Plotly / Matplotlib
+
+---
+
+## Repository Structure
+
+```text
+mwbe-analytics/
+├── data/
+├── notebooks/
+├── src/
+├── database/
+├── dashboard/
+├── requirements.txt
+└── README.md
+```
+---
 # Author
 
 Sena Kaledzi

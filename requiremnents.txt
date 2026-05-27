@@ -1,0 +1,16 @@
+## requirements.txt
+
+```txt
+pandas
+numpy
+duckdb
+streamlit
+plotly
+matplotlib
+seaborn
+jupyter
+notebook
+ipywidgets
+sqlalchemy
+pyarrow
+```
