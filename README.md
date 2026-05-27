@@ -274,7 +274,7 @@ A Streamlit dashboard was developed to visualize:
 
 ## Dashboard Preview
 
-![MWBE Vendor Intelligence Dashboard](assets/dashboard.png)
+![MWBE Vendor Intelligence Dashboard](assets/Dashboard.png)
 
 ---
 # DuckDB & SQL Analytics
